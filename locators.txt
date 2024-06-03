@@ -1,0 +1,41 @@
+0 - //li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] 
+
+1 - //li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]]
+
+2 -
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "US Shoe Size")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Brand")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Color")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Upper Material")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Occasion")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Department")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Condition")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Price")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Buying Format")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Item Location")]]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Delivery Options")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Show only")]]
+
+3 - 
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]][contains(., "US Shoe Size")] //input[@class="checkbox__control"] [contains(@aria-label, "7")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Brand")]] //input[@class="checkbox__control"] [contains(@aria-label, "adidas")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Color")]] //input[@class="checkbox__control"] [contains(@aria-label, "Beige")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Upper Material")]] //input[@class="checkbox__control"] [contains(@aria-label, "Fabric")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Occasion")]] //input[@class="checkbox__control"] [contains(@aria-label, "Casual")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Department")] //input[@class="checkbox__control"] [contains(@aria-label, "Men")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Condition")] //input[@class="checkbox__control"] [contains(@aria-label, "New with tags")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Price")] //input[@class="checkbox__control"] [contains(@aria-label, "Under $35.00")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Buying Format")] //input[@class="radio__control"] [contains(@data-value, "All Listings")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Item Location")]] //input[@class="radio__control"] [contains(@data-value, "Default")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))]] [contains(., "Delivery Options")] //input[@class="checkbox__control"] [contains(@aria-label, "Free Shipping")]
+//li[contains(@class, "x-refine__main__list")][./div/h3[not(contains(., "Category"))] [contains(., "Show only")]] //input[@class="checkbox__control"] [contains(@aria-label, "Free Returns")]
+
+4 -
+//ul[contains(@class, 'srp-results')]//li[contains(@class, 's-item')]//div[contains(@class, 's-item__title') and contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate('', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))]
+or
+//ul[contains(@class, 'srp-results')]//li[contains(@class, 's-item')]//a[contains(@class, 's-item__link') and contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), translate('', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'))]
+
+5 - 
+//div[contains(@class, 'gh-menu')]//div[contains(@class, 'gh-submenu')]//a[contains(@class, 'gh-eb-oa')]
+
+
